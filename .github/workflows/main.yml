@@ -1,0 +1,8 @@
+name: Github Actions Demo
+on: push
+jobs:
+  Explore-Github-Actions:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print 
+    run: echo "job was triggered by ${{github.event_name}}." 
