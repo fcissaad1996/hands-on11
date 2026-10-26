@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Printaaa
-      run: echo "job was triggered by ${{github.ref}}."
+        run: echo "job was triggered by ${{github.ref}}."
+      - run: echo"aaaa ${{runner.os}}."
